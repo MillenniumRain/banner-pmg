@@ -3,11 +3,6 @@ import { viteSingleFile } from 'vite-plugin-singlefile';
 import packageJson from './package.json';
 
 export default defineConfig({
-	build: {
-		modulePreload: {
-			polyfill: false,
-		},
-	},
 	plugins: [
 		viteSingleFile({ removeViteModuleLoader: true }),
 		{
