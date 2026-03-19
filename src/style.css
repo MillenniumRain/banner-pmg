@@ -1,0 +1,7 @@
+:root {
+	--main-bg: rgb(139, 81, 81);
+}
+body {
+	background-color: var(--main-bg);
+	height: 100vh;
+}
