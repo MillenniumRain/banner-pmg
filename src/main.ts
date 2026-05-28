@@ -1,3 +1,3 @@
-import './style.css';
-
-console.log('Hello World');
+import '@/clean.css';
+import '@/main.css';
+import '@/globalVariable';
